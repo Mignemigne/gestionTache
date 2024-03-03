@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+  <html lang="en"> 
+  <head> 
+      <meta charset="UTF-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <title>Todo List</title> 
+      <link rel="stylesheet" href="Todolist.css"> 
+      <link rel="shortcut icon" href="logomatrix.jpg" type="image/x-icon">
+  </head> 
+  <body class="fond">
+    <!--Ceci est du code écrit par Sofiane Faidi professeur Application Web au Cegep Marie-Victorin que j'ai modifier-->
+    <!--Ce div contient tout ce qui a un lien avec la sidebar et la bordure de la bare.-->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+      <!--Ceci est le boutton close est le boutton close qui s'affiche quand on appuie sur "☰", ce boutton sert à fermer la sidebar-->
+      <button onclick="w3_close()">Close</button>
+      <!--Le div id="matrixbar1" représente un lien dans la sidebar-->
+  <div id="matrixbar1"> 
+    <a href="#" class="matrix1">#1 Groupe Matrix</a>
+  </div>
+  <!--Le div id="matrixbar2" représente un lien dans la sidebar-->
+  <div id="matrixbar2">
+    <a href="#" class="matrix2">#2 Groupe Matrix</a>
+  </div>
+  <!--Le div id="matrixbar3" représente un lien dans la sidebar-->
+  <div id="matrixbar3">
+    <a href="#" class="matrix3">#3 Groupe Matrix</a>
+  </div>
+
+  </div>
+
+  <!--Ce code représente le code html du boutton pour ouvrir la sidebar. Le onclick="w3_open()" le nom de la function javascript de l'ouverture de la sidebar-->
+  <div class="openslide">
+    <!--Ceci est le boutton pour ouvrir la sidebar-->
+      <button class="openMatrix" onclick="w3_open()">☰</button>
+      <div class="slide-container">
+      </div>
+  </div>
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+    <!--Le div class="container" représente le container du todolist-->
+      <div class="container"> 
+        <!--Ceci est le titre du todolist-->
+          <h1>Ma Liste de tâches</h1> 
+          <!--Ceci est l'input où l'utilisateur va écrire le nom de la tache à faire-->
+          <input type="text" id="taskInput" placeholder="Nouvelle tâche...">
+          <!--Ceci est le bouton pour ajouter la tâche--> 
+          <button id="addTaskBtn">Ajouter</button> 
+          <ul id="taskList"></ul> 
+      </div> 
+
+
+      <script src="Todolist.js"></script> 
+  </body> 
+</html>

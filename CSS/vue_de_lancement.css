@@ -1,0 +1,59 @@
+/*Ceci modifie le style du boutton qui sert à s'inscrire*/
+.button1 {
+    background-color:  black;
+    color: rgb(0, 143, 17);
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    top: 370px;
+    font-size: 25px;
+    left: 640px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(0, 143, 17);
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+}
+
+/*Ceci effectue une animation qui change la couleur du boutton se connecter quand l'utilisateur glisse sa souris dessu*/
+.button1:hover {
+    background-color: rgb(0,255,43);
+}
+
+/*Ceci modifie le style du boutton qui sert à s'inscrire*/
+.button2 {
+    background-color:  black;
+    color: rgb(0, 143, 17);
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    top: 370px;
+    font-size: 25px;
+    left: 1040px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(0, 143, 17);
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+}
+
+/*Ceci effectue une animation qui change la couleur du boutton se connecter quand l'utilisateur glisse sa souris dessu*/
+.button2:hover {
+    background-color: rgb(0,255,43);
+}
+
+/*Cette ligne est une class du body, .fond, j'ai mis le fond avec cela pour pouvoir mettre une image sur toute la page*/
+.fond {
+    background: url(Matrix6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Ceci change le style du paragraphe*/
+p {
+    color: rgb(0, 143, 17);
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+    text-align: center;
+    font-size: 35px;
+    padding-top: 110px;
+}
+
+

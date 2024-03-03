@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription vers monde réel</title>
+    <link rel="shortcut icon" href="logomatrix.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="inscription.css">
+    <link rel="stylesheet" href="connection.html">
+</head>
+<body class="fond">
+    <!--Ceci est le bouton qui sert à quitter la page-->
+    <button class="quittez" onclick="quittez()" id="quittez">Quittez la page</button>
+    <!--Ceci est le container du code-->
+    <div class="container">
+    
+    <h1>S'inscrire pour enfin vivre dans le monde réel</h1>
+
+    <p>Veuillez remplir ce formulaire pour la création d'un compte dans le monde réel</p>
+
+    
+    <h2 class="email">E-mail</h2>
+    <!--Ceci est l'endroit où ont écrit notre adresse Email-->
+    <input type="text" id="email" placeholder="Entrez votre E-mail">
+
+    
+    <h2 class="motDePasse">Mot de passe</h2>
+    <!--Ceci est l'endroit où ont écrit notre mot de passe-->
+    <input type="text" id="motDePasse" placeholder="Entrez le mot de passe">
+    
+    
+    <h2 class="repetitionMotDePasse">Répéter le mot de passe</h2>
+    <!--Ceci est l'endroit où ont réécrit notre mot de passe pour confirmer le mot de passe-->
+    <input type="text" id="repetitionMotDePasse" placeholder="Répéter le mot de passe">
+
+    
+    <p class="remember">Se souvenir de moi(cocher la petite case)</p>
+    <!--Ceci est l'endroit où ont coche la checkbox pour se souvenir de l'utilisateur-->
+    <input id="souvenir" type="checkbox">
+    
+    <!--Ceci est le boutton Cancel qui sert à annuler le local storage-->
+    <button class="Cancel" onclick=effacer() id="cancel">Cancel</button>
+
+    <!--Ceci est le boutton inscription qui sert à inscrire les information écrite par l'utilisateur dans le local storage-->
+    <button class="inscription" onclick=local() id="inscription">S'inscrire</button>
+    </div>
+    
+    <!--Ceci est ce qui donne accès à la page javascript à la page html(ce qui permet de relire les deux)-->
+    <script src="inscription.js"></script>
+</body>
+</html>

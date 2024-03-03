@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px outset rgb(0, 143, 17);
+    border-radius: 5px;
+    background-color: #000000;
+    margin-top: 150px;
+    color: rgb(0, 143, 17);
+}
+
+h1{
+    color: rgb(0, 143, 17);
+}
+
+body {
+    background-color: black;
+}
+
+button{
+    color:rgb(0, 143, 17);
+    background-color: rgb(0, 0, 0)
+}
+
+ul {
+    color: rgb(0, 143, 17);
+}
+
+input{
+    background-color: #000000;
+    color: rgb(0, 143, 17);
+}
+
+::placeholder{
+    color: rgb(0, 143, 17);
+}
+
+/*Cette ligne est une class du body, .fond, j'ai mis le fond avec cela pour pouvoir mettre une image sur toute la page*/
+.fond {
+    background: url(matrix12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.w3-sidebar{
+    height:395px;
+    width:350px;
+    background-color:black;
+    position:fixed;
+    z-index:1;
+    overflow:none;
+}
+
+.w3-bar-block .w3-bar-item{
+    width:100%;
+    display:block;
+    padding:8px 16px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0
+}
+
+.w3-bar-block.w3-center .w3-bar-item{
+    text-align:center
+}
+.w3-block{
+    display:block;
+    width:100%;
+}
+
+#matrixbar1{
+    background-color: rgb(0, 143, 17);
+    margin-bottom: 75px;
+    margin-top: 5px;
+    height: 75px;
+}
+#matrixbar2{
+    background-color: rgb(0, 143, 17);
+    margin-bottom: 75px;
+    height: 75px;
+}
+#matrixbar3{
+    background-color: rgb(0, 143, 17);
+    margin-bottom: 5px;
+    height: 75px;
+}
+
+a {
+    color: black;
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+}

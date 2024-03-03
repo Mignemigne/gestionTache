@@ -1,0 +1,85 @@
+/*les modifications de taille, de couleurs du container*/
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px outset rgb(0, 143, 17);
+    border-radius: 5px;
+    background-color: #000000;
+    margin-top: 150px;
+    color: rgb(0, 143, 17);
+}
+
+/*Ceci est les changement apporter au niveau des couleurs des caractère et du fond du imput*/
+input{
+    background-color: #000000;
+    color: rgb(0, 143, 17);
+}
+
+/*Cette ligne est une class du body, .fond, j'ai mis le fond avec cela pour pouvoir mettre une image sur toute la page*/
+.fond {
+    background: url(Matrix6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Ceci sont les modifications esthétique apporter au boutton cancel*/
+.Cancel {
+    background-color: black;
+    color: rgb(0, 143, 17);
+    border-radius: 50px;
+    width: 75px;
+    height: 35px;
+    border-style: double;
+    border-color: rgb(0, 143, 17);
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+}
+
+/*Ceci sont les modifications esthétique apporter au boutton s'inscrire*/
+.inscription {
+    background-color: black;
+    color: rgb(0, 143, 17);
+    border-radius: 50px;
+    width: 75px;
+    height: 35px;
+    border-style: double;
+    border-color: rgb(0, 143, 17);
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+}
+
+/*Ceci est un animation de hoover qui change la couleur du boutton cancel en vers quand on glisse notre souris par dessus*/
+.Cancel:hover {
+    background-color: rgb(0,255,43);
+}
+
+/*Ceci est un animation de hoover qui change la couleur du boutton inscription en vers quand on glisse notre souris par dessus*/
+.inscription:hover {
+    background-color: rgb(0,255,43);
+}
+
+::placeholder {
+    color: rgb(0, 143, 17);
+}
+
+/*Ceci sont les modifications esthétique apporter au boutton quittez*/
+.quittez {
+    background-color: black;
+    color: rgb(0, 143, 17);
+    border-radius: 50px;
+    width: 85px;
+    height: 95px;
+    border-style: double;
+    border-color: rgb(0, 143, 17);
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+    margin-left: 1350px;
+}
+
+/*Ceci est un animation de hoover qui change la couleur, la couleur du text, le style des bordure pour none, la grandeur et la largueur du boutton quittez quand on glisse notre souris par dessus*/
+.quittez:hover {
+    background-color: red;
+    color: #000000;
+    border-style: none;
+    height: 110px;
+    width: 110px;
+    transition: 1s;
+}

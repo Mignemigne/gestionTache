@@ -1,0 +1,59 @@
+/*les modifications de taille, de couleurs du container*/
+.container{
+    max-width: 600px;
+    max-height: 950px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 2px outset rgb(0, 143, 17);
+    border-radius: 5px;
+    background-color: #000000;
+    margin-top: 150px;
+    color: rgb(0, 143, 17);
+}
+
+/*Le changement de couleurs du fond et de la couleur du texte du input*/
+input{
+    background-color: #000000;
+    color: rgb(0, 143, 17);
+}
+
+/*Cette ligne est une class du body, .fond, j'ai mis le fond avec cela pour pouvoir mettre une image sur toute la page*/
+.fond {
+    background: url(EscapeMatrix.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Les changements apporter au boutton connection(les couleurs, la taille, etc)*/
+.connection {
+    background-color: black;
+    color: rgb(0, 143, 17);
+    border-radius: 50px;
+    width: 95px;
+    height: 35px;
+    border-style: double;
+    border-color: rgb(0, 143, 17);
+    text-shadow:  0 0 4px rgb(0, 143, 17), 0 0 200px rgb(0, 143, 17) , 0 0 44px  rgb(0, 143, 17);
+}
+
+
+/*Une animation qi est un changement de couleur quand l'utilisateur met sa souris sur le boutton connection il change de couleur*/
+.connection:hover {
+    background-color: rgb(0,255,43);
+}
+
+
+/*Change la couleur du texte dans le placholder*/
+::placeholder {
+    color: rgb(0, 143, 17);
+}
+
+/*Changement apporter à l'image*/
+img {
+    height: 250px;
+    margin-left: 100px;
+    border-radius: 50%;
+    margin-bottom: 45px;
+}
+

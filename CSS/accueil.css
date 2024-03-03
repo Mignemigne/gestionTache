@@ -1,0 +1,56 @@
+
+/*Cette ligne est une class du body, .fond, j'ai mis le fond avec cela pour pouvoir mettre une image sur toute la page*/
+.fond {
+    background: url(matrix2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(0, 143, 17);
+    text-align: center;
+    margin-top: 200px;
+}
+
+/*Ceci est le modification du boutton red pill*/
+.RedPill {
+    background-color: rgb(150, 0, 0);
+    position: absolute;
+    left: 411px;
+    top: 450px;
+    width: 240px;
+    height: 165px;
+    font-size: 18px;
+    border-radius: 50%;
+    color: white;
+}
+
+/*Ceci est le modification du boutton blue pill*/
+.BluePill {
+    background-color: rgb(0, 18, 184);
+    position: absolute;
+    left: 1280px;
+    top: 470px;
+    width: 250px;
+    height: 175px;
+    font-size: 17px;
+    border-radius: 50%;
+    color: white;
+}
+ /*Ceci est une animation hover pour modifier la taille du boutton red pill quand ont glisse notre souris par dessus*/
+.RedPill:hover{
+    height: 200px;
+    width: 250px;
+    transition: 1s;
+    background-color: rgb(255, 0, 0);
+    text-shadow:  0 0 4px rgb(255, 0, 0) 0 0 200px rgb(255, 0, 0) , 0 0 44px  rgb(255, 0, 0);
+}
+
+ /*Ceci est une animation hover pour modifier la taille du boutton blue pill quand ont glisse notre souris par dessus*/
+.BluePill:hover{
+    height: 200px;
+    width: 250px;
+    transition: 1s;
+    background-color: rgb(4, 29, 255);
+    text-shadow:  0 0 4px rgb(4, 29, 255) 0 0 200px rgb(4, 29, 255) , 0 0 44px  rgb(4, 29, 255);
+}

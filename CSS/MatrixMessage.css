@@ -1,0 +1,15 @@
+
+/*Cette ligne est une class du body, .fond, j'ai mis le fond avec cela pour pouvoir mettre une image sur toute la page*/
+.fond {
+    background: url(BureauMatrix.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Voici les modification apporter au texte écrit sur la page html*/
+h1 {
+    color: rgb(0, 143, 17);
+    text-align: center;
+    font-size: 35px;
+    padding-top: 250px;
+}
